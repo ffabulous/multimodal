@@ -1,6 +1,6 @@
 #!/usr/bin/env fish
 
-conda activate video
+conda activate mm
 
 python train.py \
     --cache-dataset \
