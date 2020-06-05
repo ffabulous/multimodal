@@ -1,0 +1,20 @@
+{
+    "video": {
+        "data_path": "../video/cache",
+        "train_file": "a2aead2026.pt",
+        "valid_file": "ab4ad86a3a.pt",
+        "test_file": "c34227c49c.pt",
+        "model_path": "../video/dump/save",
+        "model_file": "model_15.pth"
+    },
+    "text": {
+        "data_path": "../text/cache",
+        "train_file": "6259ce924d.pt",
+        "valid_file": "5c54b0a104.pt",
+        "test_file": "ffd195c729.pt",
+        "model_path": "../text/dump/save",
+        "model_file": "model_6.pth",
+        "emb_file": "../text/data/word2vec/sampled.npy"
+    },
+    "map_file": "../text/data/map.tsv"
+}
