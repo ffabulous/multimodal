@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+MM_DIR=$(cd $(dirname ${BASH_SOURCE[0]}); pwd -P)
+
+export PYTHONPATH=${MM_DIR}/common:${PYTHONPATH}
+
+source activate mm
