@@ -1,0 +1,12 @@
+# Core
+torch
+torchvision
+Pillow
+
+# API
+Flask
+Flask-Cors
+requests
+gevent
+gunicorn
+ImageHash
